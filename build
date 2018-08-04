@@ -1,4 +1,0 @@
-#!/bin/bash -e
-
-echo "Building systemd-docker..."
-GOOS=linux GOARCH=amd64 go build -o bin/systemd-docker .
